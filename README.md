@@ -9,7 +9,7 @@ Iniciei o meu projeto, criando as pastas e arquivos necessarios para montar a es
     <p align="center">Caridade em Familia<p>
 </h2>
 <p align="center">
-<img src="../assepts/familiaridade-logo.jpg" width="50%" height="50%"/>
+<img src="./assepts/familiaridade-logo.jpg" width="50%" height="50%"/>
 </p>
 <br>
 
