@@ -241,7 +241,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 
 ## 👨‍💻 Autora
 
-## [Victoria R. Bastos](https://github.com/Elenfrancyne)
+## [Elen Francyne H. dos Santos](https://github.com/Elenfrancyne)
 ## [LinkedIn](https://www.linkedin.com/in/elen-francyne-henriques-dos-santos-03705247/) 
 
 <br>
