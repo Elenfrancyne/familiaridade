@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
+
+
+
+
 const { stringify } = require('querystring');
-const familySchema = new mongoose.Schema({
+const parentsSchema = new mongoose.Schema({
     id: mongoose.Schema.Types.ObjectId,
     name: {
         type: String,
@@ -11,18 +15,19 @@ const familySchema = new mongoose.Schema({
         required: true
     },
     adress: {
-        type: String
+        type: String,
+        required: true
     },
 
-    CPF: {
-        type: String,
+    cpfOuCnpj: {
         required: true,
-        unique: true
+        type: String
     },
     email: {
-        required: true,
+        type: String,
         unique: true,
-        lowercase: true
+        lowercase: true,
+
     },
 
     kindOfHelp: {

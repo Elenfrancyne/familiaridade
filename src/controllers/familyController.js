@@ -18,7 +18,7 @@ const registerFamily = async(req, res) => {
 
         });
 
-        const familyExist = await Family.findOne({ nameOwner: req.body.nameOwner })
+        const familyExist = await Family.findOne({ CPF: req.body.CPF })
         if (familyExist) {
             return res.status(400).json({ error: "Familia já está cadastrado." });
         }
@@ -75,28 +75,8 @@ const listenFamilyById = async(req, res) => {
     }
 
 }
-const listenByLack = async(req, res) => {
-    try {
-
-        const familyByLack = await Family.findByLack(req.params.lack)
-        if (!familyByLack) {
-            return res.status(404).json({
-                message: "Família não Cadastrada!"
-            })
-        }
-        res.status(200).json({
-            message: "Dificuldades: ",
-            familyByLack
-        })
 
 
-
-    } catch (error) {
-        res.status(500).json({
-            message: error.message
-        })
-    }
-}
 
 const updateFamilyById = async(req, res) => {
     try {
@@ -169,7 +149,6 @@ module.exports = {
     registerFamily,
     listenFamily,
     listenFamilyById,
-    listenByLack,
     updateFamilyById,
     deleteFamilyPorId
 }

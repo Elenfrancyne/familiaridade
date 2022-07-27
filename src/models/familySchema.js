@@ -9,7 +9,6 @@ const familySchema = new mongoose.Schema({
         type: String,
         required: true
     },
-
     contact: {
         type: String,
         required: true
@@ -22,7 +21,6 @@ const familySchema = new mongoose.Schema({
         type: String,
 
     },
-
     numberOfMembers: {
         type: Number,
 
