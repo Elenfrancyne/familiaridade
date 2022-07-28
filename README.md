@@ -108,7 +108,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 
 * local: http://localhost:9060
 
-* Heroku: 
+* Heroku:  (https://familiaridade.herokuapp.com)
 
     * Os endpoints da API podem ser testados através do [Postman](https://www.postman.com/).
 <br>
