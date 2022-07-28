@@ -35,7 +35,7 @@ Assim atraves das duas listas, sera criado os bancos de dados, com o intuito de 
 
 ## 📚 Aprendizados
 
-Desenvolvimento de uma API RESTful fundamentada no CRUD (Create, Read, Update, Delete) com integração com o banco de dados MongoDB. Criação de rotas públicas. 
+Desenvolvimento de uma API Restful fundamentada no CRUD (Create, Read, Update, Delete) com integração com o banco de dados MongoDB, e GitHub, uso do terminal GItBash, com enfase em seus comandos. Criação de rotas públicas. Realização de Delay no Heroku e Testes no Postman
 
 <br>
 
@@ -109,8 +109,8 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 * local: http://localhost:9060
 
 * Heroku:  (https://familiaridade.herokuapp.com)
-Rota Listar Familias: (https://familiaridade.herokuapp.com/family/listen)
-Rota Listar Padrinhos: (https://familiaridade.herokuapp.com/parents/listen)
+* Rota Listar Familias: (https://familiaridade.herokuapp.com/family/listen)
+* Rota Listar Padrinhos: (https://familiaridade.herokuapp.com/parents/listen)
 
     * Os endpoints da API podem ser testados através do [Postman](https://www.postman.com/).
 <br>
@@ -125,27 +125,18 @@ Rota Listar Padrinhos: (https://familiaridade.herokuapp.com/parents/listen)
 
 <br>
 
-## 🔃 Rotas de Hospedagem:
-
-| Método HTTP  | Endpoint                | Descrição                            |
-| ------------ | ----------------------- | ------------------------------------ |
-| PUT          | `/postos/:id`          | Atualiza de posto de compartilhamento       |
-| DELETE        | `/postos/:id`          | Remove posto de compartilhamento          |
-
-<br>
-
 ## 🔃 Rotas de Busca de Familias e Padrinhos, por ID e Geral:
 
 | Método HTTP  | Endpoint              | Descrição                                  |
 | ------------ | --------------------- | ------------------------------------------ |
-| GET          | `/family/listen`         | Retorna todos as famílias               |
-| GET          | `/family/listen/:id`     | Filtra todas as famílias por ID    |
-| GET         | `/parents/listen`   | Filtra os Padrinhos cadastrados
-| GET          | `/postos/listen/:id`     |Filtra Padrinhos por ID        |           
+| GET          | `/family/listen`         | Retorna todas as famílias               |
+| GET          | `/family/listen/:id`     | Filtra uma família por ID    |
+| GET         | `/parents/listen`   | Retorna todos os Padrinhos cadastrados
+| GET          | `/postos/listen/:id`     |Filtra um Padrinho por ID        |           
 
 <br>
 
-## 🔃 Rotas de Cadastramento de Familias e Padrinhos:
+## 🔃 Rotas de Cadastro Atualização e Delete de Familias e Padrinhos:
 
 | Método HTTP  | Endpoint               | Descrição                                         |
 | ------------ | ---------------------- | ------------------------------------------------- |
