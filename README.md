@@ -212,8 +212,19 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 ## ✅ API deve retornar seguinte JSON:
 ```jsx
 {
-  cococar o cadastro ddo postman padrinhos
+  {
+    "message": " Lista de Padrinhos cadastrados",
+    "listParents":[{"_id":"62e163ff9ae57b501301ec2e",
+    "name":"Igreja do Sagrado Coração",
+    "contact":"3333-3333",
+    "adress":"Rua da Fé, nº 85",
+    "email":"sagradocorcacao@gmail.com",
+    "kindOfHelp":["Cesta básica","Remédios"],
+    "createdAt":"2022-07-27T16:12:41.018Z",
+    "__v":0}]
     }
+    }
+    
 
 ```
 <br>
