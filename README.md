@@ -109,6 +109,8 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 * local: http://localhost:9060
 
 * Heroku:  (https://familiaridade.herokuapp.com)
+Rota Listar Familias: (https://familiaridade.herokuapp.com/family/listen)
+Rota Listar Padrinhos: (https://familiaridade.herokuapp.com/parents/listen)
 
     * Os endpoints da API podem ser testados através do [Postman](https://www.postman.com/).
 <br>
