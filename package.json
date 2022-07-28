@@ -1,30 +1,30 @@
 {
-    "name": "familiaridade",
-    "version": "1.0.0",
-    "description": "O projeto “Familiaridade” é um projeto  que tem como objetivo acolher familias inteiras, que possuem carencias financeiras , e ressocializa-las, de modo a sentirem que pertencem a sociedade e são dignas garantindo que os Direiros Humanos básicos sejam respeitados. Foi dividido em duas vertentes, de um lado  teremos o cadastro da familia carente, e do outro o padrinho. A familia será cadastrada na API com informações básicas, as dificuldades que estão passando ee em qual categoria precisam de ajuda  e os Padrinhos também com as informações básicas e qual o tipo de ajuda que poderá fornecer á família apadrinhada.\r Assim atraves das duas listas, sera criado os bancos de dados, com o intuito de ligar um padrinho á familia conforme sua necessidade\r Iniciei o meu projeto, criando as pastas e arquivos necessarios para montar a estrutura para criar minhas estruras em MVC e com o CRUD.",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Elenfrancyne/familiaridade.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Elenfrancyne/familiaridade/issues"
-    },
-    "homepage": "https://github.com/Elenfrancyne/familiaridade#readme",
-    "dependencies": {
-        "cors": "^2.8.5",
-        "dotenv-safe": "^8.2.0",
-        "express": "^4.18.1",
-        "mongoose": "^6.5.0"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.19"
-    }
+  "name": "familiaridade",
+  "version": "1.0.0",
+  "description": "O projeto “Familiaridade” é um projeto  que tem como objetivo acolher familias inteiras, que possuem carencias financeiras , e ressocializa-las, de modo a sentirem que pertencem a sociedade e são dignas garantindo que os Direiros Humanos básicos sejam respeitados. Foi dividido em duas vertentes, de um lado  teremos o cadastro da familia carente, e do outro o padrinho. A familia será cadastrada na API com informações básicas, as dificuldades que estão passando ee em qual categoria precisam de ajuda  e os Padrinhos também com as informações básicas e qual o tipo de ajuda que poderá fornecer á família apadrinhada.\r Assim atraves das duas listas, sera criado os bancos de dados, com o intuito de ligar um padrinho á familia conforme sua necessidade\r Iniciei o meu projeto, criando as pastas e arquivos necessarios para montar a estrutura para criar minhas estruras em MVC e com o CRUD.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elenfrancyne/familiaridade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elenfrancyne/familiaridade/issues"
+  },
+  "homepage": "https://github.com/Elenfrancyne/familiaridade#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
