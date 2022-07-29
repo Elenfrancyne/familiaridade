@@ -125,7 +125,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 
 <br>
 
-## 🔃 Rotas de Busca de Familias e Padrinhos, por ID e Geral:
+## 🔃 Rotas de Busca de Family(Familia)  e Parents(Padrinho), por ID e Geral:
 
 | Método HTTP  | Endpoint              | Descrição                                  |
 | ------------ | --------------------- | ------------------------------------------ |
@@ -136,7 +136,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 
 <br>
 
-## 🔃 Rotas de Cadastro Atualização e Delete de Familias e Padrinhos:
+## 🔃 Rotas de Cadastro Atualização e Delete de Family(Familias) e Parents(Padrinhos):
 
 | Método HTTP  | Endpoint               | Descrição                                         |
 | ------------ | ---------------------- | ------------------------------------------------- |
@@ -149,7 +149,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 
 <br>
 
-## ✅ Dados para Collection Familias
+## ✅ Dados para Collection Family(Familia)
 
 - id: autogerado e obrigatório
 - nameOwner: texto e obrigatório 
@@ -162,7 +162,7 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 - averageWage:: texto e obrigatório 
 - CPF: texto e obrigatório  e unico
 - lack: array e obrigatório 
-- criadoEm: data gerada automaticamente
+- createdAt: data gerada automaticamente
 
 <br>
 
@@ -197,15 +197,14 @@ Tecnologias utilizadas para desenvolvimento do projeto:
 ```
  <br>
 
-  ## ✅ Dados para Collection Padrinhos
+  ## ✅ Dados para Collection Parents (Padrinhos):
 
 - id: autogerado e obrigatório
 - name: texto e obrigatório 
 - contact: texto e obrigatório
-- cpfOuCnpj: texto e obrigatório  
 - email: texto e obrigatório
 - kindOfHelp: array e obrigatótrio
-- criadoEm: data gerada automaticamente
+- createdAt: data gerada automaticamente
 
 <br>
 

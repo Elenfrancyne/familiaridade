@@ -19,15 +19,10 @@ const parentsSchema = new mongoose.Schema({
         required: true
     },
 
-    cpfOuCnpj: {
-        required: true,
-        type: String
-    },
     email: {
         type: String,
         unique: true,
         lowercase: true,
-
     },
 
     kindOfHelp: {

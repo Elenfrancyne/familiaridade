@@ -5,7 +5,6 @@ const registerParents = async(req, res) => {
             name,
             contact,
             adress,
-            cpfOuCnpj,
             email,
             kindOfHelp,
             createdAt
@@ -14,7 +13,6 @@ const registerParents = async(req, res) => {
             name,
             contact,
             adress,
-            cpfOuCnpj,
             email,
             kindOfHelp,
             createdAt
@@ -65,7 +63,7 @@ const listenParentsById = async(req, res) => {
         }
         res.status(200).json({
             message: "Padrinho: ",
-            padrinhoById
+            parentsById
         })
     } catch (error) {
         res.status(500).json({
@@ -79,7 +77,6 @@ const updateParentsById = async(req, res) => {
             name,
             contact,
             adress,
-            cpfOuCnpj,
             email,
             kindOfHelp,
             createdAt
@@ -95,7 +92,6 @@ const updateParentsById = async(req, res) => {
         parents.name = name || parents.name
         parents.contact = contact || parents.contact
         parents.adress = adress || parents.adress
-        parents.cpfOuCnpj = cpfOuCnpj || parents.cpfOuCnpj
         parents.email = email || parents.email
         parents.kindOfHelp = kindOfHelp || parents.kindOfHelp
         parents.createdAt = createdAt || parents.createdAt

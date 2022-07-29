@@ -5,7 +5,7 @@ const router = express.Router()
 const parentsController = require("../controllers/parentsController");
 
 
-router.post("/register", parentsController.registerParents);
+router.post("/register1", parentsController.registerParents);
 router.get("/listen", parentsController.listenParents);
 router.get("/listen/:id", parentsController.listenParentsById);
 router.put("/update/:id", parentsController.updateParentsById);
